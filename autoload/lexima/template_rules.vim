@@ -71,13 +71,6 @@ function! lexima#template_rules#add_rules()
         \ 'priority': 1,
         \ })
   call lexima#add_rule({
-        \ 'char': '/',
-        \ 'delete': 1,
-        \ 'input': '/>',
-        \ 'at': '<[^>]\+\%#>',
-        \ 'filetype': ['html', 'jinja', 'htmljinja', 'django', 'htmldjango', 'liquid', 'twig', 'html.twig', 'mako', 'xml', 'javascriptreact', 'typescriptreact'],
-        \ })
-  call lexima#add_rule({
         \ 'char': '<CR>',
         \ 'input': '<CR>',
         \ 'input_after': '<CR>',
